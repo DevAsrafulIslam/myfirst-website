@@ -1,0 +1,179 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: auto;
+}
+.banner {
+  display: flex;
+  background-image: url(./images/banner/banner2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  height: 808px;
+  left: 1600px;
+  top: 808px;
+}
+.title {
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  margin-right: 0;
+  padding: 10px;
+}
+.title p {
+  line-height: 25px;
+}
+.title h1 {
+  font-size: 60px;
+  line-height: 65px;
+}
+button {
+  width: 130px;
+  height: 50px;
+  left: 1210px;
+  top: 578px;
+  border: none;
+  border-radius: 5px;
+  background: #fd6f0ae1;
+  color: #fff;
+}
+.contact {
+  font-size: 18px;
+}
+.title button:hover {
+  background: #fff;
+  color: #fb6901;
+  transition: 0.5s;
+}
+/* failures */
+.second-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.site-content {
+  width: 450px;
+}
+.second-content p {
+  line-height: 25px;
+}
+.site-title > h1 {
+  font-size: 45px;
+}
+.check ul {
+  line-height: 25px;
+  padding: 0;
+}
+.check ul li {
+  list-style: none;
+}
+
+/* my plans */
+.plans {
+  margin-top: 160px;
+}
+.plan-title > h1 {
+  font-size: 45px;
+  text-align: center;
+}
+.my-all-plans {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+/* bottom banner */
+.bottom-banner {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("./images/watch.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 65px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 130px 0;
+}
+.bottom-title > h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+}
+.call {
+  background: #fff;
+  color: #fb6901;
+  font-size: 18px;
+}
+.call:hover {
+  color: #fff;
+  background: #fb6901;
+  transition: 0.5s;
+}
+
+/* footer */
+.footer-section {
+  background: #000;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.future {
+  width: 500px;
+}
+.future-content h1 {
+  font-size: 45px;
+  color: #fff;
+}
+.future-content p {
+  color: #fff;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.future-content h4 {
+  color: #fff;
+}
+.social-img img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #fff;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+.sub-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.subscribe input {
+  height: 50px;
+  width: 300px;
+  padding-left: 5px;
+}
+.subscribe button {
+  margin-top: 15px;
+}
+.subscribe button:hover {
+  background: #fff;
+  color: #fb6901;
+  transition: 0.5s;
+}
